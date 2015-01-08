@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UIButton *myButton;
+- (IBAction)tapBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *myButton2;
+- (IBAction)tapBtn2:(id)sender;
 
 
 @end
